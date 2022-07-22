@@ -41,6 +41,7 @@ cc_library_shared {
         "camera_needs_client_info_lib_defaults",
         "camera_needs_client_info_lib_oplus_defaults",
         "needs_camera_boottime_defaults",
+        "camera_package_name_defaults",
     ],
 
     // Camera service source
