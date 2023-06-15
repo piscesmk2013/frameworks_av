@@ -53,7 +53,7 @@ interface IEffect {
      * is the last client disconnected. To release control of the effect module, the application can
      * disconnect or delete the IEffect interface.
      */
-    void disconnect();
+    oneway void disconnect();
 
     /**
      * returns a pointer to a shared memory area used to pass multiple parameters to the effect
