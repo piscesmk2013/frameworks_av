@@ -12,10 +12,6 @@ cc_library {
 
     host_supported: true,
 
-    lto: {
-        never: true,
-    },
-
     srcs: [
         "MonotonicFrameCounter.cpp",
     ],
