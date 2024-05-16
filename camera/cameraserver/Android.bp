@@ -29,6 +29,7 @@ cc_binary {
 
     defaults: [
         "libcameraservice_deps",
+        "camera_needs_client_info_lib_defaults",
     ],
 
     header_libs: [
